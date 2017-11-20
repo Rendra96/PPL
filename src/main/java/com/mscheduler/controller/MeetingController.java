@@ -33,7 +33,11 @@ public class MeetingController extends AbstractController {
         return instance;
     }
 
-    private MeetingController() {
+//    private MeetingController() {
+//        super();
+//    }
+    
+    MeetingController() {
         super();
     }
 

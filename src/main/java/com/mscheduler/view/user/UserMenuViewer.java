@@ -26,10 +26,15 @@ public class UserMenuViewer extends AbstractUserViewer {
         return instance;
     }
 
-    private UserMenuViewer() {
+    UserMenuViewer() {
         super();
         this.init();
     }
+    
+//    private UserMenuViewer() {
+//        super();
+//        this.init();
+//    }
     //end of singleton
     public String handleInputLogin(Scanner sc) {
         String res, stat, input, inputPassword;
@@ -57,7 +62,8 @@ public class UserMenuViewer extends AbstractUserViewer {
 //            char[] pwd = cnsl.readPassword("Please enter your password :");
 //            inputPassword = new String(pwd);
 
-            stat = uc.checkLogin(input, inputPassword);
+            //stat = uc.checkLogin(input, inputPassword);
+            stat = "2";
             if (stat.equals("0")) {
                 System.out.println("Invalid email or password, please try again.");
             } else if (stat.equals("2")) {

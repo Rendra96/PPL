@@ -37,7 +37,11 @@ public class UserController extends AbstractController {
           return instance;
         }
         
-        private UserController() {
+//        private UserController() {
+//            super();
+//        }
+        
+        UserController() {
             super();
         }
     //end of singleton

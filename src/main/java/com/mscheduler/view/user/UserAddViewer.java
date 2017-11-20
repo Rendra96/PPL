@@ -20,9 +20,13 @@ public class UserAddViewer extends AbstractUserViewer {
           return instance;
         }
         
-        private UserAddViewer() {
+        UserAddViewer() {
             super();
         }
+        
+//        private UserAddViewer() {
+//            super();
+//        }
     //end of singleton
     
     public String getText() {

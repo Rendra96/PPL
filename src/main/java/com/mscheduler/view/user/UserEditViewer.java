@@ -19,9 +19,13 @@ public class UserEditViewer extends AbstractUserViewer {
         return instance;
     }
 
-    private UserEditViewer() {
+    UserEditViewer() {
         super();
     }
+    
+//    private UserEditViewer() {
+//        super();
+//    }
     //end of singleton
 
     public String getText(String email) {

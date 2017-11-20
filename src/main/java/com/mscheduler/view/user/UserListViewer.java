@@ -21,10 +21,15 @@ public class UserListViewer extends AbstractUserViewer {
           return instance;
         }
         
-        private UserListViewer() {
+        UserListViewer() {
             super();
             this.init();
         }
+        
+//        private UserListViewer() {
+//            super();
+//            this.init();
+//        }
     //end of singleton
     
     

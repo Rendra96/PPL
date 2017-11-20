@@ -31,7 +31,11 @@ public class InvitationController extends AbstractController {
             return instance;
         }
         
-         private InvitationController() {
+//        private InvitationController() {
+//            super();
+//        }
+        
+        InvitationController() {
             super();
         }
     //end of singleton

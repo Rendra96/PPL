@@ -16,9 +16,13 @@ public class UserDeleteViewer extends AbstractUserViewer {
         return instance;
     }
 
-    private UserDeleteViewer() {
+    UserDeleteViewer() {
         super();
     }
+    
+//    UserDeleteViewer() {
+//        super();
+//    }
     //end of singleton
 
     public String getText(String email) {
